@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color: rgb(144, 143, 143);
+    line-height: 50px; 
+    top:1440px ;
+}
+.logo{
+    position: relative;
+    top: -70px;
+    z-index: 1;
+
+}
+.num{
+    position: relative;
+    left: 1100px;
+    top: 5px;
+    border: 1px yellow ;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    font-size:30px ;
+}
+.header{
+    position: relative;
+    top: -243px;
+}
+input{
+    background-color: rgba(169, 169, 169,0.9);
+    border-radius: 20px;
+    border: none;
+    font-size: 40px;
+    padding:  5px 300px;
+    position: relative;
+    top: -200px;
+    left: 120px;
+}
+.icon{
+    position: relative;
+    top: -235px;
+    left: 180px;
+}
+.ison{
+    position: relative;
+    top: -200px;
+}
+.items{
+    position: relative;
+    top: -260px;
+    left: 70px;
+    font-weight: 600;
+
+}
+.item1{
+    position: relative;
+    top: -260px;
+    left: 70px;
+    font-family:  'Permanent Marker', cursive;
+
+}
+.card{
+    display: flex;
+    padding: 10px 20px;
+    position: relative;
+    top: -250px;
+    
+}
+
+.imgs{
+    padding: 20px;
+    transition: 1s;
+    
+    border-radius: 20%;
+}
+.imgs:hover{
+    transform: scale(1.1);
+}
+/* footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    line-height: 200px;
+}
+.copy{
+    position: relative;
+    top: -70px;
+    font-size: 20px;
+}
+img{
+    position: relative;
+    top: -90px;
+    left: 10px;
+} */
+body {
+    font-family:  'Permanent Marker', cursive;;
+}
+
+footer {
+    background-color: darkslategray;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+   
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive; ;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.footer-menu a:hover{
+    background-color: black;
+    color: rgb(252, 250, 250);
+}
+
+.footer-contact {
+    font-family:  'Permanent Marker', cursive;;
+    color: wheat;
+    font-size: 20px;
+}
+
+/* Add more CSS rules and customize the design as needed */
+
+
